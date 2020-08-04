@@ -22,6 +22,30 @@ body {
     list-style: none;
 }
 
+.item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.item::after {
+    content: "";
+    width: 0;
+    height: 1px;
+    background: #fff;
+    transition: all ease-out 0.5s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.item:hover::after {
+    width: 100%;
+}
+
 .item-link {
     margin-left: 10px;
     margin-right: 10px;
@@ -31,7 +55,7 @@ body {
     text-decoration: none;
 }
 
-.item-link:last-child {
+.sec-menu .item:last-child .item-link {
     margin-right: 0;
 }
 
