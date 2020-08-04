@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+    margin: 0;
+    padding-top: 53px;
+}
+
+.header {
+    max-width: 1230px;
+    width: 100%;
+    height: 17px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.item-link:last-child {
+    margin-right: 0;
+}
+
+.sec-menu .item-link {
+    color: #808080;
+}
