@@ -154,5 +154,6 @@ body {
 
 .rocket {
     z-index: 2;
+    position: relative;
     padding-top: 100px;
 }
