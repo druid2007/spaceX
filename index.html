@@ -7,11 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/vidbg.css">
+    <link rel="stylesheet" href="css/aos.css">
     <title>Space X</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <img src="image/logo.svg" alt="SpaceX" class="logo">
         <nav class="main-nav">
             <ul class="list">
@@ -46,22 +47,22 @@
     </header>
 
     <section class="main">
-        <h1 class="title">
+        <h1 class="title" data-aos="fade-up" data-aos-delay="500">
             Falcon Heavy
         </h1>
-        <p class="description">
+        <p class="description" data-aos="fade-up" data-aos-delay="1000">
             The most powerful operational rocket in the world by a factor of two
         </p>
 
     </section>
-    <div class="video-bg"></div>
+    <div class="video-bg" data-aos="fade-up" data-aos-delay="1500"></div>
 
     <section class="features">
 
         <div class="left-col">
             <h2 class="features-title">Falcon Heavy <br> Overview</h2>
 
-            <table class="table">
+            <table class="table" data-aos="fade-right">
                 <tr>
                     <td>HEIGHT</td>
                     <td>70 m / <span class="text-grey">229.6 ft</span></td>
@@ -87,8 +88,8 @@
                     <td>16,800 kg / <span class="text-grey">37,040 lb</span></td>
                 </tr>
             </table>
-            <h2 class="features-title">UNMATCHED <br> PERFORMANCE</h2>
-            <p class="features-text">With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the
+            <h2 class="features-title" data-aos="fade-right">UNMATCHED <br> PERFORMANCE</h2>
+            <p class="features-text" data-aos="fade-right">With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the
                 equivalent of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.</p>
 
         </div>
@@ -115,6 +116,7 @@
 
     <script src="js/rellax.min.js"></script>
     <script src="js/vidbg.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
 
 </body>
